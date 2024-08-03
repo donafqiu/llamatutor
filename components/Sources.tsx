@@ -58,7 +58,7 @@ const SourceCard = ({ source }: { source: { name: string; url: string } }) => {
           target="_blank"
           rel="noopener noreferrer"
           href={source.url}
-          className="truncate text-xs font-light text-[#1B1B16]/30"
+          className="truncate text-xs font-light text-[#1B1B16]/70"
         >
           {source.url}
         </a>
